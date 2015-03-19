@@ -14,7 +14,7 @@ module Cinch::Plugins
     self.help = 'Use .rabbit to see the info for any recent rabbits. You ' +
                 'can also use .rabbit subscribe to sign up for notifications'
 
-    match /(rabbits|movie)\z/,           method: :list_rabbits
+    match /(rabbits?|movie)\z/,           method: :list_rabbits
     # match /rabbits subscribe/,   method: :subscribe
     # match /rabbits unsubscribe/, method: :unsubscribe
 
