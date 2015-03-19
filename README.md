@@ -1,18 +1,18 @@
-# Cinch::Plugins::Hangouts
+# Cinch::Plugins::Rabbit
 
-[![Gem Version](https://badge.fury.io/rb/cinch-hangouts.png)](http://badge.fury.io/rb/cinch-hangouts)
-[![Dependency Status](https://gemnasium.com/bhaberer/cinch-hangouts.png)](https://gemnasium.com/bhaberer/cinch-hangouts)
-[![Build Status](https://travis-ci.org/bhaberer/cinch-hangouts.png?branch=master)](https://travis-ci.org/bhaberer/cinch-hangouts)
-[![Coverage Status](https://coveralls.io/repos/bhaberer/cinch-hangouts/badge.png?branch=master)](https://coveralls.io/r/bhaberer/cinch-hangouts?branch=master)
-[![Code Climate](https://codeclimate.com/github/bhaberer/cinch-hangouts.png)](https://codeclimate.com/github/bhaberer/cinch-hangouts)
+[![Gem Version](https://badge.fury.io/rb/cinch-rabbit.png)](http://badge.fury.io/rb/cinch-rabbit)
+[![Dependency Status](https://gemnasium.com/bhaberer/cinch-rabbit.png)](https://gemnasium.com/bhaberer/cinch-rabbit)
+[![Build Status](https://travis-ci.org/bhaberer/cinch-rabbit.png?branch=master)](https://travis-ci.org/bhaberer/cinch-rabbit)
+[![Coverage Status](https://coveralls.io/repos/bhaberer/cinch-rabbit/badge.png?branch=master)](https://coveralls.io/r/bhaberer/cinch-rabbit?branch=master)
+[![Code Climate](https://codeclimate.com/github/bhaberer/cinch-rabbit.png)](https://codeclimate.com/github/bhaberer/cinch-rabbit)
 
-Cinch Plugin for tracking Hangout URLs linked in the channel.
+Cinch Plugin for tracking Rabbit URLs linked in the channel.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'cinch-hangouts'
+    gem 'cinch-rabbit'
 
 And then execute:
 
@@ -20,7 +20,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install cinch-hangouts
+    $ gem install cinch-rabbit
 
 ## Usage
 
@@ -28,11 +28,11 @@ Just add the plugin to your list:
 
     @bot = Cinch::Bot.new do
       configure do |c|
-        c.plugins.plugins = [Cinch::Plugins::Hangouts]
+        c.plugins.plugins = [Cinch::Plugins::Rabbit]
       end
     end
 
-Then in channel use !hangouts to get notifications of the hangouts that have been linked recently.
+Then in channel use !rabbit to get notifications of the rabbit that have been linked recently.
 
 ## Contributing
 
