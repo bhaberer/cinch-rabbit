@@ -1,6 +1,6 @@
 # -*- encoding : utf-8 -*-
 # Class to handle user subscriptions
-class Subscription < Cinch::Plugins::Rabbit
+class RabbitSubscription < Cinch::Plugins::Rabbit
   attr_accessor :nick, :all_links
   FILENAME = ENV['RABBIT_SUBSCRIPTIONS_FILE'] || 'yaml/rabbit_subs.yml'
 
