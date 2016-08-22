@@ -18,12 +18,11 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
 
-  gem.add_development_dependency 'rake'
-  gem.add_development_dependency 'rspec'
-  gem.add_development_dependency 'coveralls'
-  gem.add_development_dependency 'cinch-test'
-  gem.add_dependency 'cinch', '~> 2.0.12'
-  gem.add_dependency 'cinch-storage', '~> 1.2.0'
-  gem.add_dependency 'cinch-toolbox', '~> 1.1.0'
-  gem.add_dependency 'time-lord', '~> 1.0.1'
+  gem.add_development_dependency 'rake', '~> 10'
+  gem.add_development_dependency 'rspec', '~> 3'
+  gem.add_development_dependency 'cinch-test', '~> 0.1'
+  gem.add_dependency 'cinch', '~> 2.0', '>= 2.0.12'
+  gem.add_dependency 'cinch-storage', '~> 1.2', '>= 1.2.0'
+  gem.add_dependency 'cinch-toolbox', '~> 1.1', '>= 1.0.0'
+  gem.add_dependency 'time-lord', '~> 1.0', '>= 1.0.1'
 end
