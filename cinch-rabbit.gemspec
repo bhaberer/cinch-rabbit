@@ -21,6 +21,8 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rake', '~> 10'
   gem.add_development_dependency 'rspec', '~> 3'
   gem.add_development_dependency 'cinch-test', '~> 0.1'
+  gem.add_development_dependency 'coveralls'
+
   gem.add_dependency 'cinch', '~> 2.0', '>= 2.0.12'
   gem.add_dependency 'cinch-storage', '~> 1.2', '>= 1.2.0'
   gem.add_dependency 'cinch-toolbox', '~> 1.1', '>= 1.0.0'
